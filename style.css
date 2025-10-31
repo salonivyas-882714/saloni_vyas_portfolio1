@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section, main {
+  scroll-margin-top: 50px; /* sidebar ya navbar ki height ke hisaab se adjust karlo */
+}
+ span
+ {
+  color:cyan;
+}
