@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</head>
+<body class="bg-gray-900 text-white ">
+    
+
+<aside class="w-72 h-screen bg-gray-800 px-32 gap-20 py-24 font-bold text-white flex flex-col items-center  fixed top-0 left-0 shadow-lg">
+    
+    <h1 class="text-4xl font-extrabold text-cyan-500 mb-10 px-4 bg-black">Saloni</h1>
+    <nav class="space-y-6 w-full">
+        <a href="#" class="flex items-center gap-3  py-2  text-lg text-white font-bold hover:text-cyan-400 transition" >
+            <i class="fas fa-home"></i>Home</a>
+              <a href="#about" class="flex items-center py-2 text-lg gap-3 text-white font-bold hover:text-cyan-400 transition"  >
+            <i class="fas fa-user"></i>About</a>
+              <a href="#service" class="flex items-center py-2   text-lg gap-3 text-white font-bold hover:text-cyan-400 transition" >
+            <i class="fas fa-list"></i>Service</a>
+              <a href="#project" class="flex items-center  py-2  text-lg gap-3 text-white font-bold hover:text-cyan-400 transition"  >
+            <i class="fas fa-briefcase"></i>Portfolio</a>
+              <a href="#contact" class="flex items-center gap-3  py-2  text-lg text-white font-bold  hover:text-cyan-400 transition"  >
+            <i class="fas fa-comment"></i>Contact</a>
+              </nav>
+              </aside>
+              <!--main content-->
+             
+      
+           <!--   <div class="ml-96 px-12 py-36 flex flex-col md:flex-row justify-between items-center min-h-screen">-->
+           <main id="home" class="ml-96 px-12 py-20 flex flex-col md:flex-row justify-between items-center min-h-screen">
+            <div class="max-w-xl space-y-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold ">
+        Hello, my name is <span class="text-cyan-500">Saloni Vyas</span>
+      </h2>
+      <h3 class="text-2xl md:text-3xl font-semibold">
+        I'm a <span class="text-cyan-400">Web Designer</span>
+      </h3>
+      <p class="text-gray-300 ">
+        I create modern and responsive websites that are user-friendly and visually appealing. Passionate about Front-End Development and bringing ideas to life on the web. Skilled in <span class="font-semibold text-cyan-500">HTML, CSS, JavaScript,ReactJS,Bootstrap and Tailwind</span>.
+      </p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="px-8 py-3 bg-cyan-600 hover:bg-cyan-800 text-white font-bold rounded-full shadow-lg transition">
+        Hire Me
+      </button>
+    </div>
+
+    <!-- Image Section-->
+   
+         <div class="mt-12 md:mt-0 md:ml-16">
+      <img src="saloni.jpg" alt="Profile"
+        class="w-64 h-64 rounded-full shadow-[0_0_25px_rgba(6,182,212,0.7)] border-4 border-gray-700 object-cover">
+    </div> 
+<!--
+  <div class="max-w-xl  space-y-6">
+                     <h2 class="text-4xl md:text-5xl font-extrabold ">
+        Hello, my name is <span class="text-green-500">Saloni Vyas</span>
+      </h2>
+                  
+                      <h3 class="text-2xl md:text-3xl font-semibold text-white"> I'm a <span class="text-green-400">Web Designer</span>
+                         </h3>
+                    
+                         <p class="text-gray-300 ">
+                   I create modern and responsive websites that are user-friendly and visually appealing.
+                   Passionate about Front-End Development and bringing ideas to life on the web.
+                    Skilled in HTML, CSS, JavaScript, and React.
+                        </p>
+                       
+                         <button class="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full shadow-lg transition">
+        Hire Me
+      </button>
+  </div>   
+<div class="mt-10 md:mt-0">
+    <img src="saloni.jpg" alt="Profile"
+        class="w-64 h-64 rounded-full shadow-[0_0_25px_rgba(16,185,129,0.7)] border-4 border-gray-700 object-cover">
+      </div>
+    </div>
+  </div>-->
+ </div>
+  </main>
+
+   <!-- Main Content -->
+     <section id="about" class="ml-72  px-12 py-8 justify-between items-center">
+
+  <div class="max-w-6xl mx-auto text-center ">
+        <!-- Title -->
+        <h2 class="text-4xl font-bold mb-2 text-white">About <span class="text-cyan-400">Me</span></h2>
+        <h4 class="text-2xl font-semibold mb-6 text-white">I’m <b>Saloni Vyas</b> and <span class="text-cyan-400">Web Developer</span></h4>
+
+        <!-- Paragraphs -->
+        <p class="text-white font-bold mt-8 ">
+          A passionate Frontend Web Developer with skills in HTML, CSS, Bootstrap,
+          Tailwind CSS, and JavaScript. I enjoy designing clean, responsive, and user-friendly websites 
+          that provide a great user experience. I have worked on projects like a To-Do List App and my 
+          Personal Portfolio Website, which helped me strengthen my knowledge of frontend development 
+          and responsive design.
+        </p>
+        <p class="mb-10">
+          My goal is to grow as a Web Developer and build creative, modern, and impactful digital experiences.
+        </p>
+
+        <!-- Personal Info + Skills Side by Side -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+          
+          <!-- Personal Info -->
+          <div class="space-y-3 text-gray-300">
+            <p><b class="text-white">Birthday :</b> 10 April 2005</p>
+            <p><b class="text-white">Email :</b> salonivyas2005@gmail.com</p>
+            <p><b class="text-white">Phone :</b> 982 645 0359</p>
+            <p><b class="text-white">City :</b> Indore</p>
+            <p><b class="text-white">Age :</b> 20</p>
+            <p><b class="text-white">Degree :</b> BSC</p>
+          </div>
+
+          <!-- Skills -->
+          <div class="space-y-4">
+            <div>
+              <h5 class="font-semibold text-cyan-400">HTML <span class="float-right">96%</span></h5>
+              <div class="w-full bg-cyan-500 rounded-full h-2">
+                <div class="bg-cyan-500 h-2 rounded-full" style="width:96%"></div>
+              </div>
+            </div>
+            <div>
+              <h5 class="font-semibold text-cyan-400">CSS <span class="float-right">93%</span></h5>
+              <div class="w-full bg-cyan-500 rounded-full h-2">
+                <div class="bg-cyan-500 h-2 rounded-full" style="width:93%"></div>
+              </div>
+            </div>
+            <div>
+              <h5 class="font-semibold text-cyan-400">Bootstrap <span class="float-right">89%</span></h5>
+              <div class="w-full bg-cyan-500 rounded-full h-2">
+                <div class="bg-cyan-500 h-2 rounded-full" style="width:89%"></div>
+              </div>
+            </div>
+            <div>
+              <h5 class="font-semibold text-cyan-400">Tailwind <span class="float-right">89%</span></h5>
+              <div class="w-full bg-cyan-500 rounded-full h-2">
+                <div class="bg-cyan-500 h-2 rounded-full" style="width:89%"></div>
+              </div>
+            </div>
+            <div>
+              <h5 class="font-semibold text-cyan-400">JavaScript <span class="float-right">85%</span></h5>
+              <div class="w-full bg-cyan-500 rounded-full h-2">
+                <div class="bg-cyan-500 h-2 rounded-full" style="width:85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="space-x-4">
+       <a href="saloni_vyas_cv1.png" download class="bg-cyan-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-cyan-900 inline-block">
+  Download CV
+</a>
+
+          <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="bg-cyan-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-cyan-900">Hire Me</button>
+        </div>
+
+      </div>
+    </section>
+ 
+
+      <section id="service" class="ml-72  px-12 py-8 justify-between items-center">
+
+  <div class="max-w-6xl mx-auto text-center">
+    <!-- Title -->
+    <h2 class="text-4xl font-bold mb-2 text-white"> My <span class="text-cyan-400">Services</span>
+    </h2>
+    <p class="text-cyan-400 font-bold mt-8">Check out what I can do for you</p>
+
+    <!-- Services Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-24">
+      
+      <!-- Card 1 -->
+      <div class="bg-gray-800 p-6  rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+
+                                                
+
+        <h3 class="text-xl font-bold mb-2">Web Design</h3>
+        <p class="text-gray-400 text-sm">
+        Modern and clean website designs with user-friendly layouts.
+        </p>
+      </div>
+ 
+                                             
+      <!-- Card 2 -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Responsive Design</h3>
+        <p class="text-gray-400 text-sm">
+        Fully responsive websites that work seamlessly on any device.
+        </p>
+      </div>
+
+                                            
+      <!-- Card 3 -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Frontend Development</h3>
+        <p class="text-gray-400 text-sm">
+        Adding interactivity and dynamic features using JavaScript.
+        </p>
+      </div>
+ 
+                                             
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-id-card"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Portfolio Websites</h3>
+        <p class="text-gray-400 text-sm">
+           Creating personal portfolio websites to showcase skills and projects.
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-video"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2"></h3>
+        <p class="text-green-700 text-sm">
+        
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg border-2 border-cyan-500 hover:scale-105 transition-transform">
+        <div class="text-cyan-400 text-3xl mb-4">
+          <i class="fas fa-camera"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2"></h3>
+        <p class="text-gray-400 text-sm">
+        
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="project" class="ml-72  px-12 py-8 justify-between items-center">
+
+  <div class="max-w-6xl mx-auto text-center bg-gray-800 p-10 rounded-xl shadow-lg">
+        <!-- Title -->
+           <h2 class="text-4xl font-bold mb-2 text-white ">portfolio</h2>
+        <h2 class="text-4xl font-bold mb-2 text-white mb-6 mt-6"> My Last <span class="text-cyan-500">Projects </span></h2>
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="star.png" alt="Project 1" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="facebook.png" alt="Project 2" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="crud.png" alt="Project 3" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="to-do.png" alt="Project 4" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="stock.png" alt="Project 5" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="revlog.png" alt="Project 6" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+    </div>
+
+   
+    </section>
+
+
+
+     <section id="contact" class="ml-72  px-12 py-8 justify-between items-center">
+
+    <div class=" mt-20 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 bg-gray-800 p-10 rounded-xl shadow-lg">
+      
+      <!-- Left Side Info -->
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Let's Work Together</h2>
+        <p class="text-gray-400 mb-8">
+            Let’s create something amazing together — reach out now.
+        </p>
+
+        <div class="space-y-6">
+          <div class="flex items-center gap-4">
+            <div class="bg-cyan-600 p-3 rounded-lg text-white">
+              <i class="fas fa-phone"></i>
+            </div>
+            <p>(+91) 982 645 0359</p>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="bg-cyan-600 p-3 rounded-lg text-white">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <p>salonivyas2005@gmail.com</p>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="bg-cyan-600 p-3 rounded-lg text-white">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <p>Indore</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side Form -->
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Contact <span class="text-cyan-500">Me!</span></h2>
+        <form action="#" class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+            <input type="text" id="nam" placeholder="Full Name" class="w-full px-4 py-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+            <span id="snam"></span>
+            </div>
+            <div>
+            <input type="email" id="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+             <span id="semail"></span>   
+             </div>   
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <input type="text" id="phone" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+           <span id="sphone"></span>
+           </div>
+           <div>
+            <input type="text" id="esub" placeholder="Email Subject" class="w-full px-4 py-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+          <span id="sesub"></span>
+          </div>
+          </div>
+          <div>
+          <textarea id="mess" placeholder="Your Message" rows="5" class="w-full px-4 py-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500"></textarea>
+           <span id="smess"></span>
+           </div>
+          <button onclick="test()" type="button" class="bg-cyan-600 hover:bg-cyan-900 text-white px-6 py-3 rounded-full font-semibold">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
